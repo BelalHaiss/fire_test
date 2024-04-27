@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fire-test-3cb81"
-  }
+    "default": "fire-test-3cb81",
+    "staging": "psalidawly"
+  },
+  "targets": {},
+  "etags": {}
 }

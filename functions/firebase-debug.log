@@ -1,0 +1,64 @@
+[debug] [2024-04-27T11:36:13.565Z] ----------------------------------------------------------------------
+[debug] [2024-04-27T11:36:13.570Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Maydoum\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-04-27T11:36:13.571Z] CLI Version:   13.7.2
+[debug] [2024-04-27T11:36:13.571Z] Platform:      win32
+[debug] [2024-04-27T11:36:13.571Z] Node Version:  v20.12.1
+[debug] [2024-04-27T11:36:13.572Z] Time:          Sat Apr 27 2024 14:36:13 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-04-27T11:36:13.572Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-27T11:36:13.797Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-27T11:36:13.798Z] > authorizing via signed-in user (belalmohsen10@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-04-27T11:36:13.814Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-27T11:36:13.814Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-27T11:36:13.823Z] [hub] writing locator at C:\Users\Maydoum\AppData\Local\Temp\hub-fire-test-3cb81.json
+[debug] [2024-04-27T11:36:13.853Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-27T11:36:13.854Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-27T11:36:13.854Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-04-27T11:36:13.860Z] defaultcredentials: writing to file C:\Users\Maydoum\AppData\Roaming\firebase\belalmohsen10_gmail_com_application_default_credentials.json
+[debug] [2024-04-27T11:36:13.865Z] Setting GAC to C:\Users\Maydoum\AppData\Roaming\firebase\belalmohsen10_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Maydoum\\AppData\\Roaming\\firebase\\belalmohsen10_gmail_com_application_default_credentials.json"}}
+[debug] [2024-04-27T11:36:13.868Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fire-test-3cb81/adminSdkConfig [none]
+[debug] [2024-04-27T11:36:14.334Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fire-test-3cb81/adminSdkConfig 200
+[debug] [2024-04-27T11:36:14.334Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fire-test-3cb81/adminSdkConfig {"projectId":"fire-test-3cb81","storageBucket":"fire-test-3cb81.appspot.com"}
+[debug] [2024-04-27T11:36:14.358Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-04-27T11:36:14.358Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-04-27T11:36:14.359Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Maydoum\\.cache\\firebase\\emulators\\ui-v1.11.8\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Maydoum\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.8\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-04-27T11:36:14.596Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-04-27T11:36:14.597Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\code\taaly\fire_test\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\code\\taaly\\fire_test\\functions\" for Cloud Functions..."}}
+[debug] [2024-04-27T11:36:14.651Z] Validating nodejs source
+[debug] [2024-04-27T11:36:16.973Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-04-27T11:36:16.973Z] Building nodejs source
+[debug] [2024-04-27T11:36:16.974Z] Failed to find version of module node: reached end of search path D:\code\taaly\fire_test\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2024-04-27T11:36:16.981Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-04-27T11:36:16.992Z] Found firebase-functions binary at 'D:\code\taaly\fire_test\functions\node_modules\.bin\firebase-functions'
